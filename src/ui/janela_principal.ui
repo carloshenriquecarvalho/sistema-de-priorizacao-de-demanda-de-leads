@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>745</width>
+    <height>409</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>-10</y>
+      <y>10</y>
       <width>741</width>
-      <height>551</height>
+      <height>341</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -30,37 +30,30 @@
      </sizepolicy>
     </property>
     <property name="title">
-     <string>GroupBox</string>
+     <string/>
     </property>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>50</y>
-       <width>701</width>
+       <x>10</x>
+       <y>10</y>
+       <width>711</width>
        <height>121</height>
       </rect>
      </property>
      <property name="title">
-      <string>GroupBox</string>
+      <string>Dados</string>
      </property>
      <widget class="QWidget" name="formLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>10</x>
         <y>20</y>
         <width>331</width>
-        <height>61</height>
+        <height>71</height>
        </rect>
       </property>
       <layout class="QFormLayout" name="formLayout">
-       <item row="0" column="0">
-        <widget class="QLabel" name="label">
-         <property name="text">
-          <string>Vendedor</string>
-         </property>
-        </widget>
-       </item>
        <item row="0" column="1">
         <widget class="QLineEdit" name="input_vendedor">
          <property name="sizePolicy">
@@ -74,6 +67,13 @@
            <width>200</width>
            <height>0</height>
           </size>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Vendedor</string>
          </property>
         </widget>
        </item>
@@ -173,10 +173,10 @@
     <widget class="QListView" name="listView">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>190</y>
-       <width>701</width>
-       <height>351</height>
+       <x>10</x>
+       <y>140</y>
+       <width>711</width>
+       <height>191</height>
       </rect>
      </property>
     </widget>
@@ -187,7 +187,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>745</width>
      <height>33</height>
     </rect>
    </property>
